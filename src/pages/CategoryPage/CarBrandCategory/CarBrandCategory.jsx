@@ -29,7 +29,7 @@ const CarBrandCategory = () => {
       paid: 'false'
     }
 
-    fetch(`http://localhost:5000/book`, {
+    fetch(`https://seproj.onrender.com/book`, {
       method: "POST",
       headers: {
         'content-type': 'application/json'
