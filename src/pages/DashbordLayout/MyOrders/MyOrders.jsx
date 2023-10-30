@@ -92,7 +92,7 @@ const MyOrders = () => {
     }
 
     // creating a new order
-    const result = await axios.post("http://localhost:5000/custom_pay",{
+    const result = await axios.post("https://seproj.onrender.com/custom_pay",{
       amount: total_amount
     });
 
